@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+	xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="Animation_Example.Index">
+	<ContentPage.Padding>
+		<OnPlatform x:TypeArguments="Thickness" iOS="0,20,0,0"/>
+	</ContentPage.Padding>
+	
+	<StackLayout VerticalOptions="Center">
+		<Button Text="Translate" Clicked="Translate_Click" />
+		<Button Text="Scale" Clicked="Scale_Click" />
+		<Button Text="Rotate" Clicked="Rotate_Click" />
+		<Button Text="Flip" Clicked="Flip_Click" />
+		<Button Text="Fade" Clicked="Fade_Click" />
+		<Button Text="Pokemon Transition" Clicked="Transition_Click" />
+		<Button Text="Layout" Clicked="Layout_Click" />
+		<!--<Button Text="Custom Animation" Clicked="CustomAnimation_Click"/>-->
+	</StackLayout>
+</ContentPage>
